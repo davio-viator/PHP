@@ -13,7 +13,7 @@ Class Conf{
         'login' => 'viatord',
         // A l'IUT, c'est votre mdp (INE par defaut)
         // Sur votre machine personelle, vous avez creez ce mdp a l'installation
-        'password' => 'hakuna'
+        'password' => 'Dacty285'
     );
 
     static public function getLogin() {
