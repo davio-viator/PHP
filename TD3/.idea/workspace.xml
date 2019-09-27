@@ -1,11 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ac4d474-c3d2-41e9-84bb-ce1449d155c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Trajet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilisateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creerVoiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulaireVoiture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voiture.php" beforeDir="false" afterPath="$PROJECT_DIR$/Voiture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lireVoiture.php" beforeDir="false" afterPath="$PROJECT_DIR$/lireVoiture.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1RQ6qOo5tVaEJgto59UTULRmZDr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ac4d474-c3d2-41e9-84bb-ce1449d155c5" name="Default Changelist" comment="" />
+      <created>1569587162958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569587162958</updated>
+      <workItem from="1569587164309" duration="5378000" />
+    </task>
+    <task id="LOCAL-00001" summary="TD3">
+      <created>1569587248648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569587248648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TD3">
+      <created>1569587282822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569587282822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TD3" />
+    <option name="LAST_COMMIT_MESSAGE" value="TD3" />
   </component>
 </project>
