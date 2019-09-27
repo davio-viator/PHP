@@ -1,6 +1,8 @@
 <?php
 Class Conf{
 
+    static private $ddbug = True;
+
     static private $databases = array(
         // Le nom d'hote est webinfo a l'IUT
         // ou localhost sur votre machine
@@ -34,6 +36,10 @@ Class Conf{
     static public function getHostname() {
         //en PHP l'indice d'un tableau n'est pas forcement un chiffre.
         return self::$databases['hostname'];
+    }
+
+    static public function getDebug(){
+        return self::$debug;
     }
 
 
