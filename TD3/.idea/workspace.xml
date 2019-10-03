@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ac4d474-c3d2-41e9-84bb-ce1449d155c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trajet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilisateur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creerVoiture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formulaireVoiture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFindUtil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Voiture.php" beforeDir="false" afterPath="$PROJECT_DIR$/Voiture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lireVoiture.php" beforeDir="false" afterPath="$PROJECT_DIR$/lireVoiture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trajet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Trajet.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569587162958</updated>
       <workItem from="1569587164309" duration="5378000" />
+      <workItem from="1570123350474" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="TD3">
       <created>1569587248648</created>
@@ -79,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

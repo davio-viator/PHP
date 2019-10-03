@@ -39,16 +39,24 @@ class Trajet {
 
     public static function findPassagers($id){
         require_once("Model.php");
-        $sql = "SELECT * from utilisateur u,passager p WHERE  ";
+        $sql = "SELECT * FROM utilisateur u, trajet t,passager p where :id=:$id AND :user_login=:login";
         // Préparation de la requête
-        $req_prep = Model::$pdo->prepare($sql);
-
         $values = array(
-            "nom_tag" => $immat,
+            "login" => "u.login",
+            //"conducteur" =>"t.conducteur_login",
+            "id" => "t.id",
+            "trajet_id" => "p.trajet_id",
+            'user_login' => "p.utilisateur_login"
             //nomdutag => valeur, ...
         );
         // On donne les valeurs et on exécute la requête
+        $req_prep = Model::$pdo->prepare($sql);
         $req_prep->execute($values);
+        $req_prep->setFetchMode(PDO::FETCH_CLASS,'utilisateur,trajet,passager');
+        $tab_passager = $req_prep->fetchAll();
+        if (empty($tab_passager))
+            return false;
+        return $tab_passager;
     }
 
 }
