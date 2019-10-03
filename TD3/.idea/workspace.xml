@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ac4d474-c3d2-41e9-84bb-ce1449d155c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testFindUtil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trajet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Trajet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFindUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/testFindUtil.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TD4" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569587162958</updated>
       <workItem from="1569587164309" duration="5378000" />
-      <workItem from="1570123350474" duration="2424000" />
+      <workItem from="1570123350474" duration="4392000" />
     </task>
     <task id="LOCAL-00001" summary="TD3">
       <created>1569587248648</created>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569587282822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TD3">
+      <created>1570126017110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570126017110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
