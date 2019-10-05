@@ -97,6 +97,7 @@ class ModelVoiture {
 
     public function save(){
       require_once ('Model.php');
+      $tab_voit=ModelVoiture::getAllVoitures();
       $sql = "INSERT INTO Voiture (immatriculation,marque,couleur) VALUES (:immatriculation,:marque,:couleur)";
       $valeur = array(
           "immatriculation" =>$this->immatriculation,
@@ -105,6 +106,18 @@ class ModelVoiture {
       );
       $rec_prep = Model::$pdo->prepare($sql);
       $rec_prep->execute($valeur);
+    }
+
+    public static function delete($immat){
+      require_once('Model.php');
+      $tab_voir = ModelVoiture::getAllVoitures();
+      $sql = "DELETE FROM Voiture where immatriculation = :immat";
+      $valeur = array(
+          "immat"=>$immat
+      );
+      $rec_prep = Model::$pdo->prepare($sql);
+      $rec_prep->execute($valeur);
+
     }
 }
 ?>

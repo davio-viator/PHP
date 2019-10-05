@@ -4,8 +4,8 @@
         $action = $_GET["action"];
         ControllerVoiture::$action();
     }else{
-        $action = $_GET["action"];
-        ControllerVoiture::$action();
+        /*$action = $_GET["action"];
+        ControllerVoiture::$action();*/
     }
 
 ?>
