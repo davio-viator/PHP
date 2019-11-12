@@ -8,9 +8,9 @@
         <div>
             <nav>
                 <ul>
-                    <li> <a href = "index.php?action=readAll">liste des voiture</a></li>
-                    <li><a href = "index.php?action=readAll&controller=utilisateur">Liste des utilisateur</a></li>
-                    <li><a href = "index.php?action=readAll&controller=trajet">Liste des trajet</a></li>
+                    <li> <a href = "controller/routeur.php?action=readAll">liste des voiture</a></li>
+                    <li><a href = "controller/routeur.php.php?action=readAll&controller=utilisateur">Liste des utilisateur</a></li>
+                    <li><a href = "controller/routeur.php.php?action=readAll&controller=trajet">Liste des trajet</a></li>
                 </ul>
             </nav>
         </div>
@@ -19,7 +19,7 @@
             // Si $controleur='voiture' et $view='list',
             // alors $filepath="/chemin_du_site/view/voiture/list.php"
             //echo array("view", $controller, "$view.php");
-            $filepath = File::build_path(array("view", $controller, "$view.php"));
+            $filepath = File::build_path(array("view". $controller. "$view.php"));
             var_dump($filepath);
             require ($filepath);
             ?>

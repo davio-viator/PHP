@@ -8,7 +8,8 @@
         <body>
             <?php
             require("controller/routeur.php");
-            require ("view/view.php");
+            require("lib/File.php");
+            require("view/view.php");
             ?>
         <div></div>
 
